@@ -12,7 +12,7 @@
 }
 
 .navbar-brand {
-	font-size: 55px;
+	font-size: 40px;
 	font-family: veron;
 }
 
@@ -31,14 +31,19 @@
 
 .navbar-brand.page-scroll {
 	color: #000;
+	padding: 10px;
 }
 
-.page-scroll {
-	margin-bottom: 8px;
+/*.navbar-nav > li > a, .navbar-brand {
+    padding-top:0px !important; 
+    padding-bottom:0 !important;
+    height: 28px;
+}*/
+.navbar {
+	min-height: 20px !important;
 }
 
 h1 {
-	margin-top: 50px;
 	font-size: 80px;
 	font-family: veron;
 	font-weight: 900;
@@ -48,9 +53,6 @@ p {
 	margin-top: 30px;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:4px !important; 
-    padding-bottom:0 !important;
-    height: 25px;
+.container {
+	
 }
-.navbar {min-height:28px !important;}
