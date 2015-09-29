@@ -18,7 +18,7 @@
 
 .intro-section {
 	background-image: url("../img/giphy.gif");
-	background-size: cover;
+	background-size: cover !important;
 	color: #fff;
 	max-height: 600px;
 }
